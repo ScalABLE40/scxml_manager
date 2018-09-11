@@ -22,7 +22,7 @@
         <transition type="external" event="preempt" target="Final_5"/>
         <datamodel>
             <data id="vel_factor" expr="0.5"/>
-            <data expr="{'joint_1':-1.4831,'joint_2':0.4287,'joint_3':1.4622,'joint_4':0.0259,'joint_5':0.7205,'joint_6:0.0'}" id="position_js"/>
+            <data expr="{'joint_1':-1.4831,'joint_2':0.4287,'joint_3':1.4622,'joint_4':0.0259,'joint_5':0.7205,'joint_6':0.0}" id="position_js"/>
             <data id="type" expr="radian"/>
             <data id="joint_name" expr="['joint_1', 'joint_2', 'joint_3', 'joint_4','joint_5','joint_6']"/>
         </datamodel>
@@ -37,7 +37,7 @@
             <data id="vel_factor" expr="0.5">
                 <qt:editorinfo geometry="26.46;34.60;0;0;0;0"/>
             </data>
-            <data expr="{'joint_1':-0.8964,'joint_2':-0.0210,'joint_3':1.9318,'joint_4':0.0259,'joint_5':0.7205,'joint_6:0.0'}" id="position_js">
+            <data expr="{'joint_1':-0.8964,'joint_2':-0.0210,'joint_3':1.9318,'joint_4':0.0259,'joint_5':0.7205,'joint_6':0.0}" id="position_js">
                 <qt:editorinfo geometry="56.46;64.60;0;0;0;0"/>
             </data>
             <data id="type" expr="radian">
@@ -76,7 +76,7 @@
             <data id="vel_factor" expr="0.5">
                 <qt:editorinfo geometry="146.46;154.60;0;0;0;0"/>
             </data>
-            <data expr="{'joint_1':1.1898,'joint_2':-0.0210,'joint_3':1.8765,'joint_4':0.0259,'joint_5':0.7205,'joint_6:0.0'}" id="position_js">
+            <data expr="{'joint_1':1.1898,'joint_2':-0.0210,'joint_3':1.8765,'joint_4':0.0259,'joint_5':0.7205,'joint_6':0.0}" id="position_js">
                 <qt:editorinfo geometry="176.46;184.60;0;0;0;0"/>
             </data>
             <data id="type" expr="radian">
