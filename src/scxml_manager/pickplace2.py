@@ -124,7 +124,7 @@ class Movecartesian(smach.State):
                 return pose
         def execute(self, ud):
             print "Cartesian path"
-            self.group = moveit_commander.MoveGroupCommander("manipulator")
+            self.group = moveit_commander.MoveGroupCommander("denso_robot")
             rospy.sleep(5)
             Referencelink="/base_link"
             self.group.set_pose_reference_frame(Referencelink)
