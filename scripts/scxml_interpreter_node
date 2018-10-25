@@ -26,18 +26,16 @@ if __name__ == "__main__":
         else:
             rospy.logerr("File not found")
             sys.exit(-1)
-            
+
     ## Building SMACH SM
     provider = SmachStateProvider("scxml_manager")
     builder = SmachBuilder(interface, [provider])
-    SM = builder.build_state_machine()
-    
+    SM, ud = builder.build_state_machine()
+
     ## Run SM
     introspection = IntrospectionServer(SM)
     introspection.start()
     rospy.sleep(2.0)
-    SM.execute()
+    SM.execute(ud)
     rospy.sleep(5.0)
     introspection.stop()
-    
-    
